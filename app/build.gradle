@@ -1,56 +1,12 @@
 apply plugin: 'com.android.application'
 
-buildscript {
-    ext {
-        mavenReleaseUrl = System.env.MAVEN_RELEASE_URL ?: mavenReleaseUrl
-        mavenSnapshotUrl = System.env.MAVEN_SNAPSHOT_URL ?: mavenSnapshotUrl
-        gradlePluginUrl = System.env.GRADLE_PLUGIN_URL ?: gradlePluginUrl
-
-        sresUsername = System.properties['gradle.wrapperUser']
-        sresPassword = System.properties['gradle.wrapperPassword']
-
-        sresCredentials = {
-            username = sresUsername
-            password = sresPassword
-        }
-        mavenRelease =	{
-            credentials sresCredentials
-            url mavenReleaseUrl
-        }
-        mavenSnapshot =	{
-            credentials sresCredentials
-            url mavenSnapshotUrl
-        }
-
-        BOOT = '2.1.6.RELEASE'
-    }
-    repositories {
-        maven mavenRelease
-        maven mavenSnapshot
-        maven {
-            credentials sresCredentials
-            url gradlePluginUrl
-        }
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
-    }
-}
-
-repositories {
-    maven mavenRelease
-    maven mavenSnapshot
-}
 android {
-    compileSdkVersion 27
-    buildToolsVersion "28.0.0"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
     defaultConfig {
-        applicationId "com.example.yx304e.timerapp"
-        minSdkVersion 15
-        targetSdkVersion 27
+        applicationId "com.example.yx304e.myapplication"
+        minSdkVersion 23
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -68,7 +24,7 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:27.+'
+    compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }

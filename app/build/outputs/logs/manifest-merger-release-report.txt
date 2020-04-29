@@ -1,0 +1,64 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yx304e\.android\build-cache\48a5c4b3444547e57989beccfa85b8e93222ab79\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.yx304e.timerapp.MainActivity
+ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yx304e\.android\build-cache\32d6d472225e7173d744d2a9c268618580461458\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yx304e\.android\build-cache\bb37b035f0cad94c42da120c1fce04193178d9bf\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yx304e\.android\build-cache\31a4493e6b121605e2d8fa89206755abb609fcf9\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\yx304e\.android\build-cache\18f219737c3e2e0d6497ee737d8fb16cf30a7b25\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yx304e\.android\build-cache\95cecc99cca2ca75708298b8eb745903950c4a98\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yx304e\.android\build-cache\f73f46911ee1609800151ced7e42cf0de0af1929\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yx304e\.android\build-cache\9c6fbab87021c5099ce02a0f74469ee085f8b416\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yx304e\.android\build-cache\014942b8a1703bae41fd6b58c93b14665856457d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yx304e\.android\build-cache\d4abb7e330c6c0f19405b59a0ee1032c27d1ced6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yx304e\.android\build-cache\2ce4ff211ed7255fb00dc60399b748ec36dff45d\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yx304e\.android\build-cache\e4eb1b076b07f87e234bed6f6cfca6a93b940b1f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\yx304e\.android\build-cache\48a5c4b3444547e57989beccfa85b8e93222ab79\output\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yx304e\TimerApp\app\src\main\AndroidManifest.xml
